@@ -1,0 +1,14 @@
+o programa escrito em python utiliza a biblioteca Pyro4
+
+pip install Pyro4
+
+
+ativar serviço de nomes 
+python -m Pyro4.naming 
+
+iniciar servidor 
+python server.py
+
+
+apos iniciar o servidor os pontos de acesso podem ser iniciados 
+na pasta onde se encontra a aplicacao ponto_de_acesso.py o arquivo de configuracao deve ser configurado para config.cfg deve ser modificado para utilizar  id e local unicos 
